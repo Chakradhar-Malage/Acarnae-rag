@@ -244,6 +244,5 @@ in `data/exam_paper.txt`.
 
 ---
 
-*Built for Acarnae technical assessment — Part 1.*
 *Stack: Python · PyMuPDF · sentence-transformers · ChromaDB · Ollama (Mistral)*
 *No API keys required. Runs offline.*
