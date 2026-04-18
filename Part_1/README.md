@@ -242,6 +242,14 @@ appropriate template deterministically — no LLM deciding which prompt to use.
 See `output/results.txt` for pre-run answers on the AQA GCSE History paper included
 in `data/exam_paper.txt`.
 
+<img width="1274" height="774" alt="image" src="https://github.com/user-attachments/assets/1ce7304e-3cdd-4dd2-874d-f77cc85c30ca" />
+
+<img width="1295" height="363" alt="image" src="https://github.com/user-attachments/assets/314fd9f1-b171-4688-8891-f0c91f898676" />
+
+<img width="1336" height="741" alt="image" src="https://github.com/user-attachments/assets/0773b54e-4b76-41b9-b307-4b8b404988da" />
+
+<img width="1290" height="805" alt="image" src="https://github.com/user-attachments/assets/5f595b1c-6ab6-4926-8389-55ee87ee8794" />
+
 ---
 
 *Stack: Python · PyMuPDF · sentence-transformers · ChromaDB · Ollama (Mistral)*
