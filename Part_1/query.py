@@ -257,6 +257,9 @@ if __name__ == "__main__":
           f"| backend={result['backend']} | latency={result['latency_ms']}ms")
 
 
+#If your system fails to do the activity and connect the outputs from LLM then just use the following commented code in query.py instead of above one, it just reduces the power and increases the timeout. 
+
+
 # """
 # query.py — RAG query engine for the Acarnae pipeline.
 
