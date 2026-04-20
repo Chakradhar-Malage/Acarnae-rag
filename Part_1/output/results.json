@@ -1,0 +1,82 @@
+{
+  "run_at": "2026-04-20T18:05:29.010118",
+  "total_latency_ms": 1101214,
+  "questions_run": 5,
+  "results": [
+    {
+      "id": 1,
+      "category": "Syllabus Mapping",
+      "question": "What topics from the syllabus are covered in Section A of this paper, and how do they map to the official curriculum objectives?",
+      "query_type": "syllabus_mapping",
+      "retrieved_chunks": [
+        "context_window_0",
+        "full_document"
+      ],
+      "context_length": 3000,
+      "answer": "1. Topics covered in Section A of this paper are:\n   - Comparison between Interpretations A and B about the American Civil War (Question 02) - Maps to Assessment Objective AO3 (Analysis)\n   - Explanation of why authors of Interpretations A and B might have a different interpretation about the American Civil War (Question 03) - Maps to Assessment Objective AO1 (Knowledge and Understanding) and AO3 (Analysis)\n   - Evaluation of which interpretation gives the more convincing opinion about the American Civil War (Question 04) - Maps to Assessment Objective AO3 (Analysis)\n   - Description of two problems faced by Brigham Young and the Mormons (Question 06) - Maps to Assessment Objective AO1 (Knowledge and Understanding)\n\n2. The topics covered in Section A fall under the syllabus theme: America, 1840–1895: Expansion and consolidation. Specifically, they relate to Topic 3.2: The American Civil War and Reconstruction (Question 02, 03, 04) and Topic 3.3: Mormons in Utah (Question 06).\n\n3. Additionally, Question 06 also covers Topic 1.2: Native Americans and the early European settlers (as it discusses problems faced by Brigham Young and the Mormons who were interacting with Native Americans). However, this question is more closely linked to the theme of Settling the West (Topic 4.1) than Expansion and consolidation.",
+      "backend": "ollama",
+      "latency_ms": 258001,
+      "question_id": 1
+    },
+    {
+      "id": 2,
+      "category": "Concept Gap Analysis",
+      "question": "A student scored 0 on Question 01. Based on the marking scheme logic visible in this paper, what specific concept gaps does that likely indicate?",
+      "query_type": "concept_gap",
+      "retrieved_chunks": [
+        "question_4",
+        "question_6"
+      ],
+      "context_length": 2831,
+      "answer": "In order to diagnose the likely knowledge gaps for a student who scored 0 on Question 01, we will analyze the question and mark scheme provided in the exam paper context:\n\n[QUESTION]\n[QUESTION 01] [4 marks]\n0 1\nDescribe two problems faced by Brigham Young and the Mormons.\n[4 marks]\n\n1. MINIMUM THRESHOLD: To score any marks, a student must demonstrate an understanding of at least two specific problems faced by Brigham Young and the Mormons in the context of their history. This includes identifying the problem(s) and providing brief descriptions or explanations. (Level 1 entry point per the mark scheme)\n\n2. CONCEPT GAPS: A zero score likely indicates that the student has not demonstrated knowledge of any specific problems faced by Brigham Young and the Mormons. This may include issues such as persecution, migration, conflicts with non-Mormons, or difficulties in establishing settlements.\n\n3. MARK SCHEME SKILLS: The student appears to have missed Assessment Objective (AO) 1, which requires students to demonstrate their knowledge and understanding of historical events, periods, and people.\n\n4. REVISION TARGETS: To address these gaps, the student should focus on studying specific historical events related to Brigham Young and the Mormons, such as their persecution in the United States, migration to Utah, and challenges they faced while settling the Plains. Additionally, the student should practice identifying and describing historical problems and issues within the context of a given topic.",
+      "backend": "ollama",
+      "latency_ms": 357942,
+      "question_id": 2
+    },
+    {
+      "id": 3,
+      "category": "Mark Weighting & Examiner Priorities",
+      "question": "Which questions in this paper carry the highest mark weighting, and what does that suggest about examiners' topic priorities for this board?",
+      "query_type": "syllabus_mapping",
+      "retrieved_chunks": [
+        "context_window_0",
+        "full_document"
+      ],
+      "context_length": 3000,
+      "answer": "In the provided GCSE History Paper 1 Section A, the topics covered and their corresponding question numbers are as follows:\n\n1. Comparing interpretations of the American Civil War (Question 02) - Assessment Objective (AO3)\n2. Analyzing the reasons for different interpretations about the American Civil War (Question 03) - AO3\n3. Evaluating the convincingness of interpretations about the American Civil War (Question 04) - AO3\n4. Describing problems faced by Brigham Young and the Mormons (Question 06) - AO1\n5. Describing changes in Native American lives due to American governments (Question 07) - AO1\n6. Analyzing factors contributing to Homesteaders settling on the Plains (Question 09) - AO3\n\nThe syllabus theme or period each topic falls under is:\n\n1. America, 1840–1895: Expansion and consolidation\n\nRegarding examiners' topic priorities for this board, the highest mark weighting questions are those that require students to analyze (AO3) and evaluate (AO3) interpretations of historical events. Questions 02, 03, and 04 carry a total of 16 marks out of 40, which suggests that the examiners prioritize critical thinking and interpretation skills when it comes to understanding the American Civil War. This could indicate an emphasis on students' ability to analyze primary and secondary sources, form their own opinions, and justify them using contextual knowledge. Additionally, Question 09, which also requires analysis (AO3), carries a significant mark weighting of 12 marks, further emphasizing the importance of critical thinking skills in this paper.",
+      "backend": "ollama",
+      "latency_ms": 250309,
+      "question_id": 3
+    },
+    {
+      "id": 4,
+      "category": "Practice Question Generation",
+      "question": "Generate three practice questions in the same style and difficulty as Question 02, staying within the same syllabus topic of historical interpretations and provenance analysis.",
+      "query_type": "syllabus_mapping",
+      "retrieved_chunks": [
+        "context_window_0",
+        "full_document"
+      ],
+      "context_length": 3000,
+      "answer": "1. Here are three practice questions in the same style and difficulty as Question 02, staying within the same syllabus topic of historical interpretations and provenance analysis:\n\n    a) Question 02a: Compare Interpretation C with Interpretation D about the Industrial Revolution. Explain your answer based on what it says in Interpretations C and D. [4 marks, AO1 (Analyze), AO3 (Evaluate)]\n       - Syllabus theme: Britain, Health and the People, c1250-present\n       - Topic: The Industrial Revolution and its impact on society and economy\n\n    b) Question 02b: Explain how Interpretation E differs from Interpretation F about the French Revolution. Justify your answer using evidence from both interpretations. [4 marks, AO1 (Analyze), AO3 (Evaluate)]\n       - Syllabus theme: Europe, c500-present\n       - Topic: The French Revolution and its causes and consequences\n\n    c) Question 02c: Evaluate the validity of Interpretation G about the Cold War. Discuss your answer using relevant historical evidence and contextual knowledge. [8 marks, AO3 (Evaluate)]\n       - Syllabus theme: The Cold War, 1945-1991\n       - Topic: Causes, course, and consequences of the Cold War",
+      "backend": "ollama",
+      "latency_ms": 100673,
+      "question_id": 4
+    },
+    {
+      "id": 5,
+      "category": "Revision Priority Planning",
+      "question": "A student has 3 weeks until this exam. Based on the content distribution in this paper, suggest a revision priority order across the topics tested.",
+      "query_type": "syllabus_mapping",
+      "retrieved_chunks": [
+        "context_window_0",
+        "full_document"
+      ],
+      "context_length": 3000,
+      "answer": "1. Topics covered in the specified section:\n   - Question 02: Comparison of Interpretations A and B about the American Civil War (AO3)\n   - Question 03: Reasons for different interpretations about the American Civil War (AO3)\n   - Question 04: Evaluation of interpretations about the American Civil War (AO3)\n   - Question 06: Problems faced by Brigham Young and the Mormons (AO1)\n   - Question 07: Changes in the lives of Native Americans by American governments (AO1)\n   - Question 09: Importance of reasons for Homesteaders settling on the Plains (AO3)\n\n2. Mapping each topic to its official Assessment Objective:\n   - Question 02, AO3: Analyzing and evaluating historical interpretations\n   - Question 03, AO3: Analyzing and evaluating historical interpretations\n   - Question 04, AO3: Evaluating historical interpretations\n   - Question 06, AO1: Understanding historical events and their causes\n   - Question 07, AO1: Understanding historical events and their consequences\n   - Question 09, AO3: Analyzing and evaluating historical explanations\n\n3. Identifying the syllabus theme or period each topic falls under:\n   - Question 02, 03, and 04: The American Civil War (1861-1865)\n   - Question 06: Mormonism and the West (1840-1895)\n   - Question 07: Native Americans and the West (pre-contact to 1900)\n   - Question 09: The American West (1830-1895)\n\nBased on the content distribution in this paper, a suggested revision priority order across the topics tested would be as follows:\n\n1. Understanding historical events and their causes (AO1): Questions 06 (Brigham Young and the Mormons), 07 (Changes in Native American lives) and 09 (Homesteaders on the Plains",
+      "backend": "ollama",
+      "latency_ms": 134279,
+      "question_id": 5
+    }
+  ]
+}
